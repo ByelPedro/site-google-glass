@@ -1,0 +1,202 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+@font-face {
+    font-family: 'fontelogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dddddd;
+    color: rgba(0, 0, 0, 1);
+}
+
+/* Estilo do contêiner principal */
+div#interface {
+    width: 1000px;
+    background-color: white;
+    margin: -20px auto 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+/* Estilo de parágrafos */
+p {
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* Cadastro */
+form {
+    width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+input:hover, textarea:hover {
+    background-color: #dddddd;
+}
+
+legend {
+    color: #888888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset {
+    border-color: #cecece;
+    margin: 20px;
+}
+
+fieldset#sexo {
+    width: 150px;
+}
+
+fieldset#usuario {
+    background: url('../_imagens/icone-contato.png') no-repeat 95% 95%;
+}
+
+fieldset#cid {
+    background: url('../_imagens/icone-endereco.png') no-repeat 95% 95%;
+}
+
+fieldset#mensagem {
+    background: url('../_imagens/icone-mensagem.png') no-repeat 95% 95%;
+}
+
+fieldset#pedido {
+    background: url('../_imagens/icone-pagamento.png') no-repeat 95% 95%;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do cabeçalho */
+header#cabecalho img#icone {
+    position: absolute;
+    left: 1110px;
+    top: 70px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
+
+header#cabecalho h1 {
+    font-family: 'fontelogo', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 15pt;
+    color: #888888;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/* Estilo do menu */
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 600px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+nav#menu a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+header#cabecalho-artigo h1 {
+    font-family: 'fontelogo';
+    font-size: 20px;
+    color: #606060;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho-artigo h2 {
+    font-size: 10pt;
+    color: #cecece; /* Cabeçalho do começo da tela */
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+header#cabecalho-artigo h4 {
+    font-size: 10pt;
+    color: #cecece; /* Cabeçalho do começo da tela */
+    background-color: #ffffff;
+    margin-top: 0px;
+}
+
+header#cabecalho-artigo h3 {
+    font-size: 12px; /* Cabeçalho do começo da tela */
+    color: #606060;
+    text-align: right;
+}
+
+header#cabecalho-artigo h5 {
+    font-size: 20px; /* Cabeçalho do começo da tela */
+    font-family: 'fontelogo';
+    color: #606060;
+    margin-left: 40px;
+}
+
+/* Roda pé */
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}
